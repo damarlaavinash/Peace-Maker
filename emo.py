@@ -3,8 +3,8 @@ confi=0
 BUCKET = "usharama-face"
 KEY = "demo.jpg"
 FEATURES_BLACKLIST = ("Landmarks", "Emotions", "Pose", "Quality", "BoundingBox", "Confidence")
-ACCESS_ID = "AKIATL3FNCCNRLYYXOMD" # Place your ACCESS_ID
-ACCESS_KEY = "98v15QOcV9N2IC2ixkWSrZokP+hFV9FkcFFdejVi" # Place your ACCESS_KEY
+ACCESS_ID = " # Place your ACCESS_ID " 
+ACCESS_KEY = " # Place your ACCESS_KEY " 
 REGION = "eu-west-1"
 
 def detect_faces(bucket, key,REGION,ACCESS_ID,ACCESS_KEY,attributes=['ALL']):
