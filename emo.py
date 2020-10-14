@@ -5,7 +5,7 @@ KEY = "demo.jpg"
 FEATURES_BLACKLIST = ("Landmarks", "Emotions", "Pose", "Quality", "BoundingBox", "Confidence")
 ACCESS_ID = " # Place your ACCESS_ID " 
 ACCESS_KEY = " # Place your ACCESS_KEY " 
-REGION = "eu-west-1"
+REGION = "# your region "
 
 def detect_faces(bucket, key,REGION,ACCESS_ID,ACCESS_KEY,attributes=['ALL']):
 	client = boto3.client('rekognition',region_name=REGION,aws_access_key_id=ACCESS_ID,
